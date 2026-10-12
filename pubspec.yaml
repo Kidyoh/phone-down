@@ -1,0 +1,39 @@
+name: phone_down
+description: "Phones down. First to pick up pays for coffee."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bonsoir: ^7.1.5
+  mobile_scanner: ^7.4.2
+  qr_flutter: ^4.1.0
+  sensors_plus: ^7.1.1
+  share_plus: ^13.3.1
+  shared_preferences: ^2.5.6
+  wakelock_plus: ^1.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope.ttf
+    - family: InstrumentSerif
+      fonts:
+        - asset: assets/fonts/InstrumentSerif-Regular.ttf
+        - asset: assets/fonts/InstrumentSerif-Italic.ttf
+          style: italic
