@@ -50,3 +50,4 @@ app.*.map.json
 tool/icon/*.png
 *.apk
 tool/render/out/
+/android/build/
